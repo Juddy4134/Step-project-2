@@ -9,34 +9,6 @@
   &-advantage{
    @include flex;
     margin-bottom: 34px;
-
-    &-img-block{
-      width: 25%;
-    }
-
-    &-subscription{
-     @include flex;
-      width: 60%;
-    }
-
-    &-title{
-      font-size: 16px;
-      color: rgba(50, 50, 50, 255);
-      margin-bottom: 20px;
-      line-height: 1.5;
-      font-family: $montserat;
-    }
-
-    &-text{
-      font-size: 14px;
-      color: rgba(132, 142, 151, 255);
-      line-height: 1.5;
-      font-family: $montserat;
-    }
-
-    &-img{
-       margin-right: 23px;
-     }
   }
 
   &-title{
@@ -46,6 +18,34 @@
     margin-bottom: 29px;
     font-family: $montserat;
   }
+}
+
+.advantage-img-block{
+  width: 25%;
+}
+
+.advantage-subscription{
+  @include flex;
+  width: 60%;
+}
+
+.advantage-title{
+  font-size: 16px;
+  color: rgba(50, 50, 50, 255);
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-family: $montserat;
+}
+
+.advantage-text{
+  font-size: 14px;
+  color: rgba(132, 142, 151, 255);
+  line-height: 1.5;
+  font-family: $montserat;
+}
+
+.advantage-img{
+  margin-right: 23px;
 }
 
 .left-side{

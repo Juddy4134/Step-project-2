@@ -1,4 +1,3 @@
-# Step-project-2
 1. Список использованых технологий:
 
        - HTML5
@@ -22,4 +21,6 @@
 
         1. Alexandr @Juddy4134 (Студент №1)
         2. Vitalii Starodubets @wetalalbatros (Студент №2)
+
+3.https://juddy4134.github.io/Step-project-2/
   
