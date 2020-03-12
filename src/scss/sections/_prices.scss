@@ -147,25 +147,27 @@
 @media (max-width: 992px){
 
   .price-tablet {
-    margin-right: 41px;
     justify-content: center;
   }
 
   .prices-tablets-block {
     flex-wrap: wrap;
-    justify-content: center;
-    max-width: 700px;
+    justify-content: space-between;
+    max-width: 600px;
     margin: 0 auto;
   }
 
-  .price-tablet:nth-child(3){
-    margin-right: 16px;
+}
+
+@media (min-width: 448px) and (max-width: 600px){
+  .prices-tablets-block{
+    justify-content: center;
   }
 }
 
 
 @media(min-width: 320px) and (max-width: 448px) {
-  .price-tablet{
-    margin-right: 0;
-  }
+.prices-tablets-block{
+  justify-content: center;
+}
 }
